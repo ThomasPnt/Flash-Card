@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    background-color: #C9C7AC;
+}
+
+.btn{
+    margin: 10px;
+    background-color: white;
+    color: black;
+    padding: 5px;
+    border: none;
+}
+
+.btn:hover{
+    background-color: #C9C7AC ;
+}
+
+a{
+    text-decoration:none;
+}
+
+ul{
+    list-style-type: none;
+    padding-left: 15px;
+}
+
+li a{
+    color: white;
+}
+
+li a:hover{
+    text-decoration: underline;
+}
+
+.toolbar{
+    width: 100%;
+    display: inline-flex;
+    padding-top: 10px;
+    background-color: black;
+
+}
+
+.optionbar{
+    width: 70%;
+    margin: auto;
+}
+
+.sidebar{
+    width: 35%;
+    float: left
+}
+
+.card{
+    width: 65%;
+    float: right;
+}
+
+
+

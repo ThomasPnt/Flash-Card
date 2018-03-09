@@ -4,7 +4,7 @@
 
 body {
     margin: 0 auto;
-    background-color: #C9C7AC;
+    background-color: #eeeeee;
 }
 
 .btn{
@@ -16,7 +16,7 @@ body {
 }
 
 .btn:hover{
-    background-color: #C9C7AC ;
+    background-color: grey ;
 }
 
 a{
@@ -29,7 +29,7 @@ ul{
 }
 
 li a{
-    color: white;
+    color: black;
 }
 
 li a:hover{
@@ -40,7 +40,7 @@ li a:hover{
     width: 100%;
     display: inline-flex;
     padding-top: 10px;
-    background-color: black;
+    background-color: #383730;
 
 }
 
@@ -50,13 +50,43 @@ li a:hover{
 }
 
 .sidebar{
-    width: 35%;
-    float: left
+    width: 25%;
+    float: left;
+    height: 100vh;
+    border-right: 1px solid grey;
+}
+
+.sidebar h2{
+    text-align: center;
+}
+
+.sidebar ul{
+    width: 90%;
+}
+
+.sidebar input{
+    margin: 0 auto;
+    display: flex;
 }
 
 .card{
     width: 65%;
     float: right;
+}
+
+.displayCard{
+    width: 40%;
+    border: 1px solid grey;
+    display: inline-flex;
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+}
+
+.AllCard{
+    width: 70%;
+    display: block;
+    margin-left: 30%;
 }
 
 
